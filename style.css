@@ -1,0 +1,405 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-custom-color {
+  background-color: blueviolet;
+  padding: 0.6em 1.2em;
+  border-radius: 0.3em;
+  border: none;
+  color: white;
+}
+/* ----------------------------------------banner &  page css--------------------------------------*/
+
+.banner_right_bg{
+  background-color: #e2edee;
+}
+@media screen and (max-width:998px) {
+  #nav_id{
+      background: #fff;
+  }
+}
+
+.nav_shadow {
+  padding: 0.8em 15em  0.8em  8em!important;
+
+}
+
+.left_banner_radius {
+  border-radius: 0 0 0 3em;
+}
+
+.myNav {
+  position: fixed;
+  top: 0;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin: 0 auto;
+  z-index: 999999;
+}
+
+.right_nav_w {
+  width: 15%;
+}
+
+.left_nav_w {
+  width: 85%;
+}
+
+.logo_img {
+  width: 6em !important;
+  height: 2.4em !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .right_nav_ww {
+    width: 20%;
+  }
+
+  .left_nav_w {
+    width: 80%;
+  }
+  .nav_shadow {
+    padding: 0.8em 0 0.8em 0 !important;
+    border: 1px solid rgb(247, 245, 245);
+  }
+
+  .logo_img {
+    width: 4.3em !important;
+    height: 2.4em !important;
+  }
+}
+
+#myNavBar {
+  position: fixed !important;
+  z-index: 999999 !important;
+  width: 100%;
+}
+
+nav li a {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link:hover{
+  color: rgb(65, 64, 66) !important;
+}
+
+.back-shadow {
+  background-color: rgb(164, 111, 213);
+}
+
+.left-banner-margin {
+  margin-top: 7em;
+}
+
+.fixed-logo {
+  object-fit: cover;
+  max-height: 50px;
+  width: 100%;
+  border: 1px solid rgb(234, 233, 233) !important;
+  border-radius: 5px;
+}
+
+.banner_head {
+  font-size: 4rem;
+  text-align: left !important ;
+}
+
+.banner_pad {
+  padding-top: 6em !important;
+}
+
+.banner_right_col {
+    padding-top: 6em;
+  }
+
+.banner_left_content {
+  width: 85%;
+}
+
+.banner_para{
+  width:75%;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-company {
+    width: 100% !important;
+  }
+  .fixed-logo {
+    height: 40px !important;
+  }
+  .banner_left_content {
+    width: 100% !important;
+  }
+  .banner_head {
+    font-size: 2.5rem;
+    text-align: justify;
+  }
+  .banner_para {
+    text-align: justify;
+    width:90%
+  }
+}
+
+.fixed-banner-img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .banner_right_col {
+    padding-top: 2em !important;
+  }
+}
+
+/* --------------------------------monitor css-------------------------------- */
+
+.monitor-margin {
+  margin: 6em 0 !important;
+}
+
+
+.monitor_h6 {
+  color: gray;
+  font-size: 0.8em;
+}
+.monitor_h1{
+  font-size:2em;
+}
+
+.monitor_row{
+  width:75%;
+}
+
+@media screen and (max-width:576px){
+  .monitor_h6 {
+    color: gray;
+    font-size: 0.6em;
+  }
+  .monitor_h1{
+    font-size:1.4em;
+  }
+  .monitor-margin{
+     margin:3em 0 !important;
+  }
+}
+
+@media screen and (max-width:767px){
+  .monitor_row{
+      width:95% !important;
+  }
+}
+
+
+
+/* --------------------------------------features page css----------------------- */
+.feature_container{
+    padding:0 4em !important;
+}
+
+@media screen and (max-width:1250px){
+  .feature_container{
+        padding:0 !important;
+}
+}
+
+.feature-bg {
+  background-color: blueviolet;
+}
+.feature-head {
+  font-size: 3.2em !important;
+}
+
+.service-bg {
+  position: absolute;
+  width: 32em;
+  height: auto;
+  border-radius: 15px 0 0 15px;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+/* -----------------------------------collabs css--------------------------------------------- */
+.collabs-margin{
+    margin:5em 0 0 0 !important;
+}
+.collabs_bg{
+  background-color: #c9d5dd;
+}
+
+.collabs_img {
+  width: 85%;
+  object-fit: contain;
+}
+
+.collabs_right {
+  width: 75%;
+}
+
+@media screen and (max-width: 1040px) {
+  .collabs_right {
+    width: 90% !important;
+  }
+  .collabs_img {
+    width: 90%;
+  }
+}
+
+.collabs-main-container {
+  height: 500px;
+}
+
+.check_collabs {
+  color:white;
+  border-radius: 50%;
+ background-color:blueviolet;
+}
+
+
+/* ------------------------------------------solution css---------------------------------------- */
+
+.solution-margin {
+  margin: 5em 0 0 0  !important;
+}
+
+.solution-container{
+  padding:0 4em !important;
+}
+
+
+/* ------------------------------feedback/testimonial section css------------------ */
+.testimonial-margin{
+    margin:5em 0 0 0 !important;
+}
+.feed-head {
+  font-size: 40px;
+}
+
+[class="feed-subhead"] {
+  font-size: 0.9em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.bi-star-fill{
+  color: rgb(185, 185, 17) !important;
+}
+
+.feed_image {
+  width: 30%;
+}
+/* size of feed-image circle */
+.circle {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feed-para {
+  text-align: justify;
+}
+
+
+/* -----------------------------------------------communication section css--------------------------------------------------- */
+.comm-margin{
+  margin:1em 0 0 0 !important;
+}
+.communication {
+  background-color: skyblue;
+}
+
+.com-right {
+  padding-right: 50px;
+}
+
+.comm_bg{
+  background-color: #e2edee;
+}
+
+/* --------------------------------------------Footer Section css------------------------------------------------ */
+
+.footer_margin{
+  margin:2em 0 2em 0 ;
+}
+
+.footer_pad{
+  padding:0em 0 0 4em !important;
+}
+
+.footer_lower_pad{
+  padding:0 3.2em 0 3.2em !important;
+  margin:1.4em 0 !important;
+}
+
+.i-size {
+  font-size: 2rem;
+  color: black !important;
+}
+
+.footer_logo_img {
+  width: 7em !important;
+  height: 3em !important;
+  padding-left:0;
+}
+
+.social-icon {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.indian {
+  color: rgb(196, 4, 196);
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-list li a:hover {
+  color: rgb(196, 4, 196);
+}
+
+@media screen and (max-width:1250px) {
+  .footer_pad{
+    padding:0 !important;
+  }
+
+  .footer_lower_pad{
+    padding: 0 !important;
+    margin:1.4em 0 !important;
+  }
+}
+
+@media screen and (max-width:576px){
+  .footer_head{
+    font-size:1.9em !important;
+  }
+}
+
+
+/* different sections margins for screen less than 576px */
+
+@media screen and (max-width:576px){
+  .collabs-margin{
+    margin:3em 0 0 0 !important;
+}
+.solution-margin {
+  margin: 3em 0 0 0  !important;
+}
+.testimonial-margin{
+  margin:3em 0 0 0 !important;
+}
+}
